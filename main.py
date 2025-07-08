@@ -10,7 +10,7 @@ from langchain.tools import tool
 
 # --- Streamlit UI ---
 st.set_page_config(page_title="外出後押しAI", page_icon="🚶")
-st.title("🚶 ゆるく外出を後押しするパーソナルエージェント")
+st.title("🚶 ゆるく外出を後押しするパーソナルエージェントAI")
 st.markdown("コロナ後、家にこもりがちになったあなたへ。外出のきっかけを、やさしく提案します。")
 
 api_key = st.text_input("🔑 OpenAI APIキーを入力してください", type="password")
