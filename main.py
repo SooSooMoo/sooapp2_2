@@ -1,6 +1,9 @@
 import streamlit as st
 import datetime
+# 旧（今はエラーになる可能性がある）
 from langchain.chat_models import ChatOpenAI
+# 新（推奨）
+from langchain_community.chat_models import ChatOpenAI
 from langchain.agents import initialize_agent, Tool
 from langchain.agents.agent_types import AgentType
 from langchain.tools import tool
